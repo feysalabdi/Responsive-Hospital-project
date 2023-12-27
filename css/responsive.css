@@ -1,0 +1,106 @@
+@media (max-width: 768px) {
+    .nav-links ul li {
+       display: block!important;
+    }
+    
+}
+@media (max-width: 768px) {
+
+    
+    .menu{
+       position: absolute;
+       right: 20px;
+       display: block;
+    }
+    .nav-links{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        width: 100%;
+        background-color: #219ebc;
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+        z-index: 2;
+    }
+    .nav-links ul {
+        display: block;
+        margin: 14px 0;
+    }
+    .nav-links  li{
+        margin: 20px;
+    }
+    nav-links ul li a:hover{
+        color: white;
+    }
+    .navbar .active{
+        display: flex;
+    }
+    #hero .container{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10%;
+        align-items: center;
+    }
+    #hero p{
+        max-width: 500px;
+    }
+    #hero .hero_img{
+        margin-top: 10%;
+        margin-bottom: 30px;
+    }
+    #boxes .container{
+        grid-template-columns: 1fr;
+    }
+    
+   #about-us .container{
+    flex-direction: column;
+    
+    
+   }
+   #about-us h3{
+    margin-top: 1%;
+   }
+
+   #Contact-us h1{
+     font-size: 3rem;
+     margin-bottom: 20px;
+     border-bottom: #219ebc 1px solid;
+     color: #219ebc;
+   }
+   #Contact-us input {
+    margin-top: 20px;
+     height: 40px;
+     width: 300px;
+   }
+   #Contact-us button{
+    max-width: 100%;
+    height: 40px;
+    width: 200px;
+   }
+  
+
+   #sticky{
+    position:sticky;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    background: var(--light-color);
+     /* padding: 10px 3%; */
+     transition: all .40s ease;
+     backdrop-filter: inherit;
+}
+
+   /* .card{
+
+   
+} */
+
+ 
+ 
+   
+}
